@@ -1,0 +1,37 @@
+header {
+    display: inline-block;
+}
+
+.navul {
+    list-style: none;
+    float: right;
+}
+
+.navli {
+    float: left;
+    margin-right: 20px;
+}
+
+.top {
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.articleul{
+    list-style: none;
+    float: left;
+}
+
+.articleli{
+    float: left;
+    margin-right: 20px;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    position: absolute;  
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}

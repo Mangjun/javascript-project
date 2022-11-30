@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img width="100" height="75" src="logo.png" alt="logo" style="position: absolute;"></a>
+    </header>
+    <nav>
+        <ul class="navul">
+            <li class="navli">
+                <form action="search.php" method="post">
+                    <input type="text" title="검색">
+                    <input type="submit" value="검색">
+                </form>
+            </li>
+            <li class="navli">
+                <button onclick="location.href='login.html'">login</button>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <h2 class="top">Best</h2>
+        <article>
+            <ul class="articleul">
+                <li class="articleli">
+                    <a href="product.html"><img src="hude.jpg" width="200" height="200">
+                    <p style="text-align: center;">후드티</p></a>
+                </li>
+                <li class="articleli">
+                    <img src="sweatshirt.jpg" width="200" height="200">
+                    <p style="text-align: center;">맨투맨</p>
+                </li>
+                <li class="articleli">
+                    <img src="longsleeve.jpg" width="200" height="200">
+                    <p style="text-align: center;">롱슬리브</p>
+                </li>
+            </ul>
+        </article>
+    </section>
+    <footer>
+        <p>Designed by KMJ</p>
+    </footer>
+</body>
+</html>
